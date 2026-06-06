@@ -1,0 +1,11 @@
+# Configuration File
+database_host = 192.168.1.100
+database_user = admin
+password = "SuperSecret123"
+api_key = "sk_live_abc123xyz789"
+contact_email = admin@example.com
+
+# SSH Key
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA...
+-----END RSA PRIVATE KEY-----
