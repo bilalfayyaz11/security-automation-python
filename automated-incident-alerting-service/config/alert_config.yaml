@@ -1,0 +1,20 @@
+alert_rules:
+  - name: "Failed Login Attempt"
+    pattern: "Failed password"
+    severity: "medium"
+    threshold: 3
+
+  - name: "Root Access"
+    pattern: "root login"
+    severity: "high"
+    threshold: 1
+
+  - name: "Port Scan Detected"
+    pattern: "port scan"
+    severity: "high"
+    threshold: 1
+
+notification:
+  email_enabled: false
+  log_file: "alerts/incidents.log"
+  console_enabled: true
