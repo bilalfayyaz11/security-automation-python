@@ -1,0 +1,13 @@
+database:
+  host: localhost
+  port: 5432
+  username: root
+  password: "123456"
+  ssl_enabled: false
+
+api:
+  endpoint: http://api.example.com
+  timeout: 30
+
+logging:
+  level: DEBUG

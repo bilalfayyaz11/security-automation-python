@@ -1,0 +1,15 @@
+database:
+  host: localhost
+  port: 5432
+  username: app_user
+  password: "StrongP@ssw0rd123!"
+  ssl_enabled: true
+
+api:
+  endpoint: https://api.example.com
+  timeout: 30
+  max_retries: 3
+
+logging:
+  level: INFO
+  file: /var/log/app.log

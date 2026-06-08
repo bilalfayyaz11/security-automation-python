@@ -1,0 +1,18 @@
+database:
+  host: localhost
+  port: 5432
+  username: admin
+  password: "password"
+  ssl_enabled: false
+
+api:
+  endpoint: http://internal.example.com
+  timeout: 5
+
+logging:
+  level: DEBUG
+  file: /tmp/debug.log
+
+features:
+  unsafe_mode: true
+  admin_panel_enabled: true
