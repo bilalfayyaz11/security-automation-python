@@ -1,0 +1,28 @@
+rules:
+  - id: 1
+    name: "Failed Login Attempts"
+    pattern: "FAILED_LOGIN"
+    threshold: 3
+    severity: "HIGH"
+    response: "block_ip"
+
+  - id: 2
+    name: "Suspicious File Access"
+    pattern: "UNAUTHORIZED_ACCESS"
+    threshold: 1
+    severity: "CRITICAL"
+    response: "alert_admin"
+
+  - id: 3
+    name: "Port Scan Detected"
+    pattern: "PORT_SCAN"
+    threshold: 5
+    severity: "MEDIUM"
+    response: "log_only"
+
+  - id: 4
+    name: "Privilege Escalation Attempt"
+    pattern: "PRIVILEGE_ESCALATION"
+    threshold: 1
+    severity: "CRITICAL"
+    response: "isolate_host"
