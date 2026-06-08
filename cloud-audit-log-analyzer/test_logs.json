@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2024-01-16T03:00:00Z",
+    "user": "testuser@company.com",
+    "action": "DisableMFA",
+    "resource": "IAM",
+    "source_ip": "10.0.0.1",
+    "status": "SUCCESS",
+    "details": {"account": "admin-account"}
+  }
+]

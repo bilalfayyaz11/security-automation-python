@@ -1,0 +1,145 @@
+
+=== Cloud Audit Log Analyzer ===
+
+[+] Loaded 8 log entries from sample_audit_logs.json
+
+[*] Analyzing logs for security issues...
+
+======================================================================
+           CLOUD AUDIT LOG SECURITY ANALYSIS REPORT
+======================================================================
+
+[SUMMARY]
+Total Log Entries Analyzed: 8
+Risky Actions Found: 5
+Misconfigurations Found: 3
+Suspicious Activities Found: 3
+
+Total Security Issues: 11
+
+[SEVERITY BREAKDOWN]
+CRITICAL: 3
+HIGH: 6
+MEDIUM: 2
+
+======================================================================
+[RISKY ACTIONS DETECTED]
+======================================================================
+
+1. CreateUser
+   Severity: HIGH
+   User: admin@company.com
+   Source IP: 203.0.113.45
+   Time: 2024-01-15T10:23:45Z
+   Resource: IAM
+   Details: {'username': 'newuser', 'permissions': 'Administrator'}
+
+2. DisableEncryption
+   Severity: HIGH
+   User: admin@company.com
+   Source IP: 203.0.113.45
+   Time: 2024-01-15T10:30:00Z
+   Resource: Storage
+   Details: {'bucket': 'sensitive-data-bucket'}
+
+3. DeleteBackup
+   Severity: HIGH
+   User: developer@company.com
+   Source IP: 198.51.100.23
+   Time: 2024-01-15T11:20:00Z
+   Resource: Storage
+   Details: {'backup_id': 'backup-2024-01-14'}
+
+4. ModifyLogging
+   Severity: HIGH
+   User: admin@company.com
+   Source IP: 203.0.113.45
+   Time: 2024-01-15T12:00:00Z
+   Resource: Monitoring
+   Details: {'action': 'disable', 'service': 'audit-logs'}
+
+5. CreateAccessKey
+   Severity: HIGH
+   User: admin@company.com
+   Source IP: 203.0.113.45
+   Time: 2024-01-15T15:00:00Z
+   Resource: IAM
+   Details: {'key_id': 'AKIAIOSFODNN7EXAMPLE', 'expiry': 'never'}
+
+======================================================================
+[SECURITY MISCONFIGURATIONS]
+======================================================================
+
+1. Admin Permissions
+   Severity: CRITICAL
+   User: admin@company.com
+   Action: CreateUser
+   Resource: IAM
+   Source IP: 203.0.113.45
+   Time: 2024-01-15T10:23:45Z
+   Details: {'username': 'newuser', 'permissions': 'Administrator'}
+
+2. Open Ssh
+   Severity: CRITICAL
+   User: developer@company.com
+   Action: ModifySecurityGroup
+   Resource: Network
+   Source IP: 198.51.100.23
+   Time: 2024-01-15T10:25:12Z
+   Details: {'rule': 'Allow 0.0.0.0/0 on port 22'}
+
+3. Non Expiring Key
+   Severity: CRITICAL
+   User: admin@company.com
+   Action: CreateAccessKey
+   Resource: IAM
+   Source IP: 203.0.113.45
+   Time: 2024-01-15T15:00:00Z
+   Details: {'key_id': 'AKIAIOSFODNN7EXAMPLE', 'expiry': 'never'}
+
+======================================================================
+[SUSPICIOUS ACTIVITIES]
+======================================================================
+
+1. Failed Access Attempt
+   Severity: MEDIUM
+   User: unknown@external.com
+   Action: ListBuckets
+   Time: 2024-01-15T11:15:33Z
+   Source IP: 192.0.2.100
+   Details: {'reason': 'Access Denied'}
+
+2. External User Activity
+   Severity: HIGH
+   User: unknown@external.com
+   Action: ListBuckets
+   Time: 2024-01-15T11:15:33Z
+   Source IP: 192.0.2.100
+   Details: {'reason': 'Access Denied'}
+
+3. Unusual Access Time
+   Severity: MEDIUM
+   User: contractor@company.com
+   Action: AccessDatabase
+   Time: 2024-01-15T14:30:00Z
+   Source IP: 203.0.113.99
+   Details: {'database': 'production-db', 'time': '02:30 AM'}
+
+======================================================================
+[RECOMMENDATIONS]
+======================================================================
+- Restrict public security group access to trusted IP ranges only
+- Remove administrator permissions from default or newly created users
+- Enforce key expiration policies and rotate long-lived access keys
+- Enable encryption for all storage resources
+- Require approval workflows for sensitive cloud administration actions
+- Enable MFA for privileged accounts
+- Review backup deletion, audit logging, and encryption changes
+- Monitor IAM access key creation and privileged user provisioning
+- Investigate failed access attempts from external users
+- Review access from unknown source IP addresses
+- Investigate unusual access time activity
+- Correlate suspicious events with identity provider and network logs
+
+======================================================================
+

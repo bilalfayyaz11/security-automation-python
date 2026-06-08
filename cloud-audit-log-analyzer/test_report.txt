@@ -1,0 +1,62 @@
+
+=== Cloud Audit Log Analyzer ===
+
+[+] Loaded 1 log entries from test_logs.json
+
+[*] Analyzing logs for security issues...
+
+======================================================================
+           CLOUD AUDIT LOG SECURITY ANALYSIS REPORT
+======================================================================
+
+[SUMMARY]
+Total Log Entries Analyzed: 1
+Risky Actions Found: 1
+Misconfigurations Found: 0
+Suspicious Activities Found: 1
+
+Total Security Issues: 2
+
+[SEVERITY BREAKDOWN]
+CRITICAL: 0
+HIGH: 1
+MEDIUM: 1
+
+======================================================================
+[RISKY ACTIONS DETECTED]
+======================================================================
+
+1. DisableMFA
+   Severity: HIGH
+   User: testuser@company.com
+   Source IP: 10.0.0.1
+   Time: 2024-01-16T03:00:00Z
+   Resource: IAM
+   Details: {'account': 'admin-account'}
+
+======================================================================
+[SUSPICIOUS ACTIVITIES]
+======================================================================
+
+1. Unusual Access Time
+   Severity: MEDIUM
+   User: testuser@company.com
+   Action: DisableMFA
+   Time: 2024-01-16T03:00:00Z
+   Source IP: 10.0.0.1
+   Details: {'account': 'admin-account'}
+
+======================================================================
+[RECOMMENDATIONS]
+======================================================================
+- Require approval workflows for sensitive cloud administration actions
+- Enable MFA for privileged accounts
+- Review backup deletion, audit logging, and encryption changes
+- Monitor IAM access key creation and privileged user provisioning
+- Investigate failed access attempts from external users
+- Review access from unknown source IP addresses
+- Investigate unusual access time activity
+- Correlate suspicious events with identity provider and network logs
+
+======================================================================
+

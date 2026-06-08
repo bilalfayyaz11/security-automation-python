@@ -1,0 +1,74 @@
+[
+  {
+    "timestamp": "2024-01-15T10:23:45Z",
+    "user": "admin@company.com",
+    "action": "CreateUser",
+    "resource": "IAM",
+    "source_ip": "203.0.113.45",
+    "status": "SUCCESS",
+    "details": {"username": "newuser", "permissions": "Administrator"}
+  },
+  {
+    "timestamp": "2024-01-15T10:25:12Z",
+    "user": "developer@company.com",
+    "action": "ModifySecurityGroup",
+    "resource": "Network",
+    "source_ip": "198.51.100.23",
+    "status": "SUCCESS",
+    "details": {"rule": "Allow 0.0.0.0/0 on port 22"}
+  },
+  {
+    "timestamp": "2024-01-15T10:30:00Z",
+    "user": "admin@company.com",
+    "action": "DisableEncryption",
+    "resource": "Storage",
+    "source_ip": "203.0.113.45",
+    "status": "SUCCESS",
+    "details": {"bucket": "sensitive-data-bucket"}
+  },
+  {
+    "timestamp": "2024-01-15T11:15:33Z",
+    "user": "unknown@external.com",
+    "action": "ListBuckets",
+    "resource": "Storage",
+    "source_ip": "192.0.2.100",
+    "status": "FAILED",
+    "details": {"reason": "Access Denied"}
+  },
+  {
+    "timestamp": "2024-01-15T11:20:00Z",
+    "user": "developer@company.com",
+    "action": "DeleteBackup",
+    "resource": "Storage",
+    "source_ip": "198.51.100.23",
+    "status": "SUCCESS",
+    "details": {"backup_id": "backup-2024-01-14"}
+  },
+  {
+    "timestamp": "2024-01-15T12:00:00Z",
+    "user": "admin@company.com",
+    "action": "ModifyLogging",
+    "resource": "Monitoring",
+    "source_ip": "203.0.113.45",
+    "status": "SUCCESS",
+    "details": {"action": "disable", "service": "audit-logs"}
+  },
+  {
+    "timestamp": "2024-01-15T14:30:00Z",
+    "user": "contractor@company.com",
+    "action": "AccessDatabase",
+    "resource": "Database",
+    "source_ip": "203.0.113.99",
+    "status": "SUCCESS",
+    "details": {"database": "production-db", "time": "02:30 AM"}
+  },
+  {
+    "timestamp": "2024-01-15T15:00:00Z",
+    "user": "admin@company.com",
+    "action": "CreateAccessKey",
+    "resource": "IAM",
+    "source_ip": "203.0.113.45",
+    "status": "SUCCESS",
+    "details": {"key_id": "AKIAIOSFODNN7EXAMPLE", "expiry": "never"}
+  }
+]
