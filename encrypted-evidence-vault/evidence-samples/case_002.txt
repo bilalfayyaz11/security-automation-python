@@ -1,0 +1,5 @@
+CASE ID: 002
+DATE: 2024-01-16
+INVESTIGATOR: M. Johnson
+DESCRIPTION: Malware sample analysis
+HASH: f6e5d4c3b2a1

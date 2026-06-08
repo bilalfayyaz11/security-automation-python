@@ -1,0 +1,5 @@
+CASE ID: 001
+DATE: 2024-01-15
+INVESTIGATOR: J. Smith
+DESCRIPTION: Network intrusion evidence
+HASH: a1b2c3d4e5f6
