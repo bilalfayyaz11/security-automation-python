@@ -1,0 +1,76 @@
+WARNING: /etc/aide/aide.conf:1: Using 'database' is DEPRECATED and will be removed in the next release.. Update your config and use 'database_in' instead (line: 'database=file:/var/lib/aide/aide.db')
+Start timestamp: 2026-06-08 21:46:02 +0000 (AIDE 0.18.6)
+AIDE found differences between database and filesystem!!
+
+Summary:
+  Total number of entries:	4
+  Added entries:		1
+  Removed entries:		1
+  Changed entries:		3
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++++: /opt/critical_files/backdoor.sh
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+f-----------------: /opt/critical_files/data.txt
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+
+d = ... mc..      : /opt/critical_files
+f > ... mc..H     : /opt/critical_files/config.txt
+f = p.. .c...     : /opt/critical_files/script.sh
+
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+
+Directory: /opt/critical_files
+ Mtime     : 2026-06-08 21:41:33 +0000        | 2026-06-08 21:46:02 +0000
+ Ctime     : 2026-06-08 21:41:33 +0000        | 2026-06-08 21:46:02 +0000
+
+File: /opt/critical_files/config.txt
+ Size      : 38                               | 73
+ Mtime     : 2026-06-08 21:45:55 +0000        | 2026-06-08 21:46:02 +0000
+ Ctime     : 2026-06-08 21:45:55 +0000        | 2026-06-08 21:46:02 +0000
+ SHA256    : 9U9lmBwBrjaymgkCCuCVIYH0KJsTB3sb | I6iANiBi/LT688Tpzyi+czO6pNZo8tjX
+             5oVP18+RfMs=                     | qp/9Y1R0OZk=
+
+File: /opt/critical_files/script.sh
+ Perm      : -rwxr-xr-x                       | -rwxrwxrwx
+ Ctime     : 2026-06-08 21:45:56 +0000        | 2026-06-08 21:46:02 +0000
+
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+
+/var/lib/aide/aide.db
+ MD5       : CN4je3lZF9NhrTswK1AYkw==
+ SHA1      : sQ+yEj+3vCYk3AzX437HrThIeFE=
+ SHA256    : RUAYbQYH13Xdwn/unDWIO3n/zmsSDPmG
+             AOJI5QADrXQ=
+ SHA512    : OAUj51jEreR4zGhzorKP1ZExFZduMmm+
+             qoKvgOVup6g+QAm0PnCyzqXqpQMlGOkY
+             kEhIcTkYZcAWWwr9HCjujA==
+ RMD160    : T1ilComSOQgzb9mMcXjAkqHL46s=
+ TIGER     : 8Xdqwab23VY95tPlXJXunHUYpmvYG/Ce
+ CRC32     : G1plWw==
+ CRC32B    : wsXZGA==
+ HAVAL     : qSF6yXuSNzZE0Do7TOCVLmuF0AVV2o8r
+             9jU9pAu9qSc=
+ WHIRLPOOL : C3saQVsK9INz1eWSB76uG3khD2b5E5oU
+             QJi15VGlfn0bsYXzM9xp0G+CRToM/0Nh
+             2a/n7UAU0aAFunOK7OTx7w==
+ GOST      : CPiqb9YbAKCw4dDWssMRICYSdgM+ZUXY
+             DPX5z3ZVC1A=
+
+
+End timestamp: 2026-06-08 21:46:02 +0000 (run time: 0m 0s)

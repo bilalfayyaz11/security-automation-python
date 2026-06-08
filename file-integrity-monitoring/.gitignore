@@ -1,0 +1,5 @@
+aide.db
+aide.db.new
+*.db
+*.db.new
+*.gz

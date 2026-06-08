@@ -1,0 +1,25 @@
+Running integrity check at Mon Jun  8 21:46:07 UTC 2026
+ALERT: File integrity violations detected!
+Report saved to: /var/log/aide_check_20260608_214607.log
+Summary:
+  Total number of entries:	4
+  Added entries:		1
+  Removed entries:		1
+  Changed entries:		3
+
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+
+f+++++++++++++++++: /opt/critical_files/backdoor.sh
+
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+
+f-----------------: /opt/critical_files/data.txt
+
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+---
