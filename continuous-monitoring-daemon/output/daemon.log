@@ -1,0 +1,27 @@
+Starting monitoring daemon...
+Reading from: logs/access.log
+Writing alerts to: output/alerts.log
+Replay speed: 2.0x
+------------------------------------------------------------
+[2024-01-15 10:23:45] INFO: User login successful - user: alice
+[2024-01-15 10:24:12] INFO: Page accessed - /dashboard
+[2024-01-15 10:25:33] WARNING: High memory usage - 85%
+[2024-01-15 10:26:01] INFO: User login successful - user: bob
+[2024-01-15 10:27:15] ERROR: Database connection failed
+ALERT: ERROR - Database connection failed
+[2024-01-15 10:28:22] INFO: Page accessed - /reports
+[2024-01-15 10:29:45] WARNING: Disk space low - 90%
+[2024-01-15 10:30:11] ERROR: Authentication failed - user: charlie
+ALERT: ERROR - Authentication failed - user: charlie
+[2024-01-15 10:31:28] INFO: User logout - user: alice
+[2024-01-15 10:32:50] CRITICAL: System overload detected
+ALERT: CRITICAL - System overload detected
+[2024-01-15 10:33:15] INFO: Page accessed - /settings
+[2024-01-15 10:34:42] WARNING: CPU usage high - 92%
+[2024-01-15 10:35:19] ERROR: File not found - /data/report.pdf
+ALERT: ERROR - File not found - /data/report.pdf
+[2024-01-15 10:36:33] INFO: User login successful - user: david
+[2024-01-15 10:37:55] CRITICAL: Security breach attempt detected
+ALERT: CRITICAL - Security breach attempt detected
+------------------------------------------------------------
+Monitoring complete. Total alerts: 5

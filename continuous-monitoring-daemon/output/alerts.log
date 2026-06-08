@@ -1,0 +1,13 @@
+[ALERT 2026-06-08 23:10:50] ERROR: Database connection failed
+[ALERT 2026-06-08 23:10:51] ERROR: Authentication failed - user: charlie
+[ALERT 2026-06-08 23:10:51] CRITICAL: System overload detected
+[ALERT 2026-06-08 23:10:52] ERROR: File not found - /data/report.pdf
+[ALERT 2026-06-08 23:10:52] CRITICAL: Security breach attempt detected
+[ALERT 2026-06-08 23:10:54] ERROR: Database connection failed
+[ALERT 2026-06-08 23:10:55] ERROR: Authentication failed - user: charlie
+[ALERT 2026-06-08 23:10:55] CRITICAL: System overload detected
+[ALERT 2026-06-08 23:11:02] ERROR: Database connection failed
+[ALERT 2026-06-08 23:11:03] ERROR: Authentication failed - user: charlie
+[ALERT 2026-06-08 23:11:03] CRITICAL: System overload detected
+[ALERT 2026-06-08 23:11:04] ERROR: File not found - /data/report.pdf
+[ALERT 2026-06-08 23:11:05] CRITICAL: Security breach attempt detected
