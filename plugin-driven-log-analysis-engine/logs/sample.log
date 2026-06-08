@@ -1,0 +1,13 @@
+2024-01-15 10:23:45 INFO: System startup complete
+2024-01-15 10:24:12 WARNING: High memory usage detected
+2024-01-15 10:25:33 ERROR: Database connection failed
+2024-01-15 10:26:01 Failed password for admin from 192.168.1.100 port 22 ssh2
+2024-01-15 10:26:15 INFO: Service restarted successfully
+2024-01-15 10:27:42 CRITICAL: Disk space below 5%
+2024-01-15 10:28:19 Failed password for root from 10.0.0.50 port 22 ssh2
+2024-01-15 10:29:05 authentication failure; rhost=172.16.0.25
+2024-01-15 10:30:11 INFO: Backup completed
+2024-01-15 10:31:28 FATAL: Application crashed unexpectedly
+2024-01-15 10:32:45 sudo: authentication failure for user john
+2024-01-15 10:33:12 ERROR: File not found exception
+2024-01-15 10:34:20 session opened for user root by john(uid=1001)
