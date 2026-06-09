@@ -1,0 +1,19 @@
+======================================================================
+SOC AUTOMATION SECURITY REPORT
+======================================================================
+Report Generated: 2026-06-09 02:57:34
+Total Threats Detected: 11
+
+Threat Breakdown:
+----------------------------------------------------------------------
+- suspicious_connection: 3 detections (27.27%)
+- privilege_escalation: 3 detections (27.27%)
+- brute_force: 3 detections (27.27%)
+- port_scan: 2 detections (18.18%)
+
+Recommendations:
+----------------------------------------------------------------------
+- Review failed admin login attempts and enforce account lockout controls.
+- Investigate scanning source IPs and validate firewall exposure.
+- Investigate outbound connections to uncommon ports such as 4444.
+- Review sudo activity and audit privilege escalation attempts.

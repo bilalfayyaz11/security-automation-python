@@ -1,0 +1,11 @@
+2026-06-09 02:56:34 | THREAT=suspicious_connection | RAW_LOG=2026-06-09 02:56:33 | Unusual outbound connection to 198.51.100.110 on port 4444
+2026-06-09 02:56:35 | THREAT=privilege_escalation | RAW_LOG=2026-06-09 02:56:34 | Multiple failed sudo attempts - user: guest194
+2026-06-09 02:56:36 | THREAT=brute_force | RAW_LOG=2026-06-09 02:56:35 | Failed login attempt from 10.0.0.17 - user: admin - attempt 6
+2026-06-09 02:56:39 | THREAT=port_scan | RAW_LOG=2026-06-09 02:56:38 | Port scan detected from 203.0.113.181 targeting ports 22,23,3389
+2026-06-09 02:56:44 | THREAT=port_scan | RAW_LOG=2026-06-09 02:56:43 | Port scan detected from 203.0.113.90 targeting ports 22,23,3389
+2026-06-09 02:56:53 | THREAT=privilege_escalation | RAW_LOG=2026-06-09 02:56:52 | Multiple failed sudo attempts - user: guest247
+2026-06-09 02:56:57 | THREAT=brute_force | RAW_LOG=2026-06-09 02:56:56 | Failed login attempt from 10.0.0.39 - user: admin - attempt 18
+2026-06-09 02:57:02 | THREAT=suspicious_connection | RAW_LOG=2026-06-09 02:57:01 | Unusual outbound connection to 198.51.100.146 on port 4444
+2026-06-09 02:57:17 | THREAT=privilege_escalation | RAW_LOG=2026-06-09 02:57:16 | Multiple failed sudo attempts - user: guest104
+2026-06-09 02:57:23 | THREAT=brute_force | RAW_LOG=2026-06-09 02:57:22 | Failed login attempt from 10.0.0.136 - user: admin - attempt 1
+2026-06-09 02:57:32 | THREAT=suspicious_connection | RAW_LOG=2026-06-09 02:57:31 | Unusual outbound connection to 198.51.100.222 on port 4444
