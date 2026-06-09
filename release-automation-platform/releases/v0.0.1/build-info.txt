@@ -1,0 +1,4 @@
+Build Date: 2026-06-09 03:38:00
+Git Commit: 6eb6621
+Version: 0.0.1
+Hello, {name}! Version: {__version__}
