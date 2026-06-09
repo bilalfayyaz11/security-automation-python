@@ -1,0 +1,8 @@
+1. Direct concatenation without validation
+2. No input sanitization
+3. No delimiter protection
+4. No instruction hierarchy
+5. No prompt boundaries
+6. User instructions can override system intent
+7. No anomaly detection
+8. No monitoring controls
