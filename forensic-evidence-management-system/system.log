@@ -1,0 +1,4 @@
+2024-01-15 14:20:12 LOGIN jdoe from 192.168.1.105
+2024-01-15 14:23:45 FILE_ACCESS jdoe accessed /secure/data.db
+2024-01-15 14:24:01 FILE_DOWNLOAD jdoe downloaded data.db
+2024-01-15 14:25:33 LOGOUT jdoe

@@ -1,0 +1,3 @@
+45ceca42289291b883ddd81ec6519dcc  /home/ubuntu/forensics_lab/evidence/original/system.log
+137206b798698349a3d06ee1e85293fe  /home/ubuntu/forensics_lab/evidence/original/app.conf
+4d130c4d332be4e8f712d10ec33d9e18  /home/ubuntu/forensics_lab/evidence/original/suspicious_doc.txt
