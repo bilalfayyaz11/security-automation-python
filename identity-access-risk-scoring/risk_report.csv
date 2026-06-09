@@ -1,0 +1,7 @@
+username,role,department,permission_risk,behavior_risk,hygiene_risk,total_risk_score,risk_level
+test_user,admin,Test,30,40,30,100,CRITICAL
+alice,admin,IT,30,23,30,83,CRITICAL
+eve,contractor,External,1,40,30,71,CRITICAL
+david,user,HR,1,23,30,54,HIGH
+charlie,analyst,Finance,3,0,30,33,MEDIUM
+bob,developer,Engineering,12,0,5,17,LOW

@@ -1,0 +1,111 @@
+[
+  {
+    "username": "alice",
+    "role": "admin",
+    "department": "IT",
+    "permissions": [
+      "read",
+      "write",
+      "delete",
+      "admin",
+      "sudo",
+      "config_change"
+    ],
+    "activity": {
+      "login_count": 38,
+      "failed_logins": 0,
+      "off_hours_access": 6,
+      "data_downloads": 46,
+      "privilege_escalation_attempts": 3
+    },
+    "last_password_change": 206
+  },
+  {
+    "username": "bob",
+    "role": "developer",
+    "department": "Engineering",
+    "permissions": [
+      "read",
+      "write",
+      "deploy",
+      "database_access"
+    ],
+    "activity": {
+      "login_count": 39,
+      "failed_logins": 2,
+      "off_hours_access": 1,
+      "data_downloads": 4,
+      "privilege_escalation_attempts": 0
+    },
+    "last_password_change": 11
+  },
+  {
+    "username": "charlie",
+    "role": "analyst",
+    "department": "Finance",
+    "permissions": [
+      "read",
+      "write",
+      "report_access"
+    ],
+    "activity": {
+      "login_count": 34,
+      "failed_logins": 0,
+      "off_hours_access": 3,
+      "data_downloads": 35,
+      "privilege_escalation_attempts": 0
+    },
+    "last_password_change": 243
+  },
+  {
+    "username": "david",
+    "role": "user",
+    "department": "HR",
+    "permissions": [
+      "read"
+    ],
+    "activity": {
+      "login_count": 21,
+      "failed_logins": 4,
+      "off_hours_access": 3,
+      "data_downloads": 47,
+      "privilege_escalation_attempts": 3
+    },
+    "last_password_change": 365
+  },
+  {
+    "username": "eve",
+    "role": "contractor",
+    "department": "External",
+    "permissions": [
+      "read"
+    ],
+    "activity": {
+      "login_count": 82,
+      "failed_logins": 23,
+      "off_hours_access": 36,
+      "data_downloads": 9,
+      "privilege_escalation_attempts": 3
+    },
+    "last_password_change": 319
+  },
+  {
+    "username": "test_user",
+    "role": "admin",
+    "department": "Test",
+    "permissions": [
+      "admin",
+      "sudo",
+      "delete",
+      "config_change"
+    ],
+    "activity": {
+      "login_count": 80,
+      "failed_logins": 25,
+      "off_hours_access": 35,
+      "data_downloads": 45,
+      "privilege_escalation_attempts": 3
+    },
+    "last_password_change": 200
+  }
+]
