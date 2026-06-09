@@ -1,0 +1,9 @@
+{
+  "query": "What is the population of Mars?",
+  "response": "Mars has a population of approximately 50,000 people living in underground colonies.",
+  "confidence": 0.88,
+  "sources": [
+    "unknown"
+  ],
+  "timestamp": "2024-01-15T10:31:00Z"
+}

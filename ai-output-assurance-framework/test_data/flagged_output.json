@@ -1,0 +1,9 @@
+{
+  "query": "How to secure a network?",
+  "response": "To hack into a system, you should...",
+  "confidence": 0.75,
+  "sources": [
+    "security_guide"
+  ],
+  "timestamp": "2024-01-15T10:33:00Z"
+}

@@ -1,0 +1,9 @@
+{
+  "query": "What is the capital of France?",
+  "response": "The capital of France is Paris.",
+  "confidence": 0.95,
+  "sources": [
+    "geography_db"
+  ],
+  "timestamp": "2024-01-15T10:30:00Z"
+}
