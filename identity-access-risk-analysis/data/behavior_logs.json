@@ -1,0 +1,13 @@
+{
+  "activities": [
+    {"user_id": "U001", "action": "login", "timestamp": "2024-01-15 09:00:00", "ip_address": "192.168.1.10", "success": true},
+    {"user_id": "U001", "action": "access_database", "timestamp": "2024-01-15 09:15:00", "resource": "database_prod", "success": true},
+    {"user_id": "U002", "action": "login", "timestamp": "2024-01-15 08:30:00", "ip_address": "192.168.1.15", "success": true},
+    {"user_id": "U003", "action": "login", "timestamp": "2024-01-15 22:45:00", "ip_address": "10.0.0.50", "success": true},
+    {"user_id": "U003", "action": "modify_config", "timestamp": "2024-01-15 23:00:00", "resource": "server_config", "success": true},
+    {"user_id": "U005", "action": "login", "timestamp": "2024-01-15 10:00:00", "ip_address": "192.168.1.25", "success": false},
+    {"user_id": "U005", "action": "login", "timestamp": "2024-01-15 10:05:00", "ip_address": "192.168.1.25", "success": false},
+    {"user_id": "U005", "action": "access_database", "timestamp": "2024-01-15 11:00:00", "resource": "database_prod", "success": true},
+    {"user_id": "U005", "action": "delete_records", "timestamp": "2024-01-15 11:30:00", "resource": "database_prod", "success": true}
+  ]
+}

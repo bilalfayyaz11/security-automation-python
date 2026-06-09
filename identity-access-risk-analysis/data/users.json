@@ -1,0 +1,9 @@
+{
+  "users": [
+    {"id": "U001", "name": "Alice Johnson", "department": "Engineering", "role": "Developer", "hire_date": "2020-01-15"},
+    {"id": "U002", "name": "Bob Smith", "department": "Finance", "role": "Analyst", "hire_date": "2019-06-20"},
+    {"id": "U003", "name": "Carol White", "department": "Engineering", "role": "Admin", "hire_date": "2018-03-10"},
+    {"id": "U004", "name": "David Brown", "department": "HR", "role": "Manager", "hire_date": "2021-09-01"},
+    {"id": "U005", "name": "Eve Davis", "department": "Engineering", "role": "Developer", "hire_date": "2022-02-14"}
+  ]
+}

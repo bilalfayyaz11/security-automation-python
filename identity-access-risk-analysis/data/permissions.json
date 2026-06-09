@@ -1,0 +1,14 @@
+{
+  "permissions": [
+    {"user_id": "U001", "resource": "database_prod", "access_level": "read", "granted_date": "2020-01-20"},
+    {"user_id": "U001", "resource": "code_repo", "access_level": "write", "granted_date": "2020-01-20"},
+    {"user_id": "U002", "resource": "financial_reports", "access_level": "read", "granted_date": "2019-06-25"},
+    {"user_id": "U002", "resource": "database_prod", "access_level": "read", "granted_date": "2020-03-10"},
+    {"user_id": "U003", "resource": "database_prod", "access_level": "admin", "granted_date": "2018-03-15"},
+    {"user_id": "U003", "resource": "server_config", "access_level": "admin", "granted_date": "2018-03-15"},
+    {"user_id": "U003", "resource": "code_repo", "access_level": "admin", "granted_date": "2018-03-15"},
+    {"user_id": "U004", "resource": "hr_records", "access_level": "write", "granted_date": "2021-09-05"},
+    {"user_id": "U005", "resource": "code_repo", "access_level": "write", "granted_date": "2022-02-20"},
+    {"user_id": "U005", "resource": "database_prod", "access_level": "admin", "granted_date": "2022-02-20"}
+  ]
+}

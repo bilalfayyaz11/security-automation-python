@@ -1,0 +1,65 @@
+================================================================================
+IAM RISK ANALYSIS REPORT
+================================================================================
+Generated: 2026-06-09 03:30:33
+Total Users Analyzed: 5
+================================================================================
+
+RISK SUMMARY:
+  High Risk Users: 0
+  Medium Risk Users: 2
+  Low Risk Users: 3
+
+================================================================================
+DETAILED USER RISK ANALYSIS:
+================================================================================
+
+User: Carol White (U003)
+Department: Engineering
+Risk Level: MEDIUM
+Composite Risk Score: 69.0/100
+  - Permission Risk: 90/100
+  - Behavior Risk: 55/100
+Permissions: 3
+Activities Logged: 2
+--------------------------------------------------------------------------------
+
+User: Eve Davis (U005)
+Department: Engineering
+Risk Level: MEDIUM
+Composite Risk Score: 57.0/100
+  - Permission Risk: 45/100
+  - Behavior Risk: 65/100
+Permissions: 2
+Activities Logged: 4
+--------------------------------------------------------------------------------
+
+User: Alice Johnson (U001)
+Department: Engineering
+Risk Level: LOW
+Composite Risk Score: 8.0/100
+  - Permission Risk: 20/100
+  - Behavior Risk: 0/100
+Permissions: 2
+Activities Logged: 2
+--------------------------------------------------------------------------------
+
+User: David Brown (U004)
+Department: HR
+Risk Level: LOW
+Composite Risk Score: 6.0/100
+  - Permission Risk: 15/100
+  - Behavior Risk: 0/100
+Permissions: 1
+Activities Logged: 0
+--------------------------------------------------------------------------------
+
+User: Bob Smith (U002)
+Department: Finance
+Risk Level: LOW
+Composite Risk Score: 4.0/100
+  - Permission Risk: 10/100
+  - Behavior Risk: 0/100
+Permissions: 2
+Activities Logged: 1
+--------------------------------------------------------------------------------
