@@ -1,0 +1,15 @@
+[Unit]
+Description=Monitor Application
+After=network.target prometheus.service loki.service
+Wants=prometheus.service loki.service
+
+[Service]
+User=ubuntu
+Environment=USER=ubuntu
+WorkingDirectory=/home/ubuntu/observability-lab/app
+ExecStart=/home/ubuntu/observability-lab/venv/bin/python /home/ubuntu/observability-lab/app/monitor_app.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+{
+  "job": "application",
+  "health": "up"
+}
+{
+  "job": "node_exporter",
+  "health": "up"
+}
+{
+  "job": "prometheus",
+  "health": "up"
+}

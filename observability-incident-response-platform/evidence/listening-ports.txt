@@ -1,0 +1,6 @@
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      8704/python         
+tcp6       0      0 :::9100                 :::*                    LISTEN      8177/node_exporter  
+tcp6       0      0 :::9090                 :::*                    LISTEN      8178/prometheus     
+tcp6       0      0 :::9080                 :::*                    LISTEN      8179/promtail       
+tcp6       0      0 :::3100                 :::*                    LISTEN      8176/loki           
+tcp6       0      0 :::3000                 :::*                    LISTEN      8175/grafana        

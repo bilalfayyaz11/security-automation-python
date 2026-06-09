@@ -1,0 +1,8 @@
+{
+  "status": "success",
+  "data": [
+    "application",
+    "syslog",
+    "varlogs"
+  ]
+}
