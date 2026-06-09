@@ -1,0 +1,13 @@
+users:
+  - username: admin
+    uid: 1000
+    sudo: true
+    password_age: 365
+  - username: developer
+    uid: 1001
+    sudo: true
+    password_age: 180
+  - username: guest
+    uid: 1002
+    sudo: false
+    password_age: 90

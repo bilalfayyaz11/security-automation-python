@@ -1,0 +1,5 @@
+2024-01-15 10:25:00 GET /api/users 200 admin
+2024-01-15 10:30:15 POST /api/config 200 admin
+2024-01-15 11:45:30 GET /api/secrets 403 guest
+2024-01-15 12:00:45 DELETE /api/users/1001 200 admin
+2024-01-15 13:15:20 GET /admin/panel 200 developer

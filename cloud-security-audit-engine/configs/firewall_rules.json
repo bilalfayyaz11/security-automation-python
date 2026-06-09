@@ -1,0 +1,7 @@
+{
+  "rules": [
+    {"id": "rule-001", "protocol": "tcp", "port": "22", "source": "0.0.0.0/0", "action": "allow"},
+    {"id": "rule-002", "protocol": "tcp", "port": "3389", "source": "0.0.0.0/0", "action": "allow"},
+    {"id": "rule-003", "protocol": "tcp", "port": "443", "source": "0.0.0.0/0", "action": "allow"}
+  ]
+}

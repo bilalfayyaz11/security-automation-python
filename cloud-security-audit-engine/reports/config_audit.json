@@ -1,0 +1,47 @@
+[
+  {
+    "severity": "HIGH",
+    "issue": "Root login is enabled",
+    "recommendation": "Set PermitRootLogin to no"
+  },
+  {
+    "severity": "MEDIUM",
+    "issue": "Password authentication enabled",
+    "recommendation": "Use key-based authentication only"
+  },
+  {
+    "severity": "MEDIUM",
+    "issue": "MaxAuthTries is too high or not set",
+    "recommendation": "Set MaxAuthTries to 3"
+  },
+  {
+    "severity": "HIGH",
+    "issue": "Rule rule-001 allows access from anywhere",
+    "recommendation": "Restrict source IP for port 22"
+  },
+  {
+    "severity": "HIGH",
+    "issue": "Rule rule-002 allows access from anywhere",
+    "recommendation": "Restrict source IP for port 3389"
+  },
+  {
+    "severity": "HIGH",
+    "issue": "Rule rule-003 allows access from anywhere",
+    "recommendation": "Restrict source IP for port 443"
+  },
+  {
+    "severity": "MEDIUM",
+    "issue": "User admin has password age > 90 days",
+    "recommendation": "Enforce 90-day password rotation"
+  },
+  {
+    "severity": "MEDIUM",
+    "issue": "User developer has password age > 90 days",
+    "recommendation": "Enforce 90-day password rotation"
+  },
+  {
+    "severity": "LOW",
+    "issue": "User developer has sudo privileges",
+    "recommendation": "Review if sudo access is necessary"
+  }
+]

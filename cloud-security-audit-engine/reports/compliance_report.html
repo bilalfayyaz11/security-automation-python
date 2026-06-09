@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Security Compliance Report</title></head>
+<body>
+<h1>Security Compliance Audit Report</h1>
+<p>Generated: 2026-06-09 03:14:01</p>
+<h2>Compliance Score: 49/100</h2>
+<p>Total Issues Found: 15</p>
+<table border="1">
+<tr><th>Severity</th><th>Finding</th><th>Details</th></tr>
+<tr><td>HIGH</td><td>Root login is enabled</td><td>Set PermitRootLogin to no</td></tr><tr><td>MEDIUM</td><td>Password authentication enabled</td><td>Use key-based authentication only</td></tr><tr><td>MEDIUM</td><td>MaxAuthTries is too high or not set</td><td>Set MaxAuthTries to 3</td></tr><tr><td>HIGH</td><td>Rule rule-001 allows access from anywhere</td><td>Restrict source IP for port 22</td></tr><tr><td>HIGH</td><td>Rule rule-002 allows access from anywhere</td><td>Restrict source IP for port 3389</td></tr><tr><td>HIGH</td><td>Rule rule-003 allows access from anywhere</td><td>Restrict source IP for port 443</td></tr><tr><td>MEDIUM</td><td>User admin has password age > 90 days</td><td>Enforce 90-day password rotation</td></tr><tr><td>MEDIUM</td><td>User developer has password age > 90 days</td><td>Enforce 90-day password rotation</td></tr><tr><td>LOW</td><td>User developer has sudo privileges</td><td>Review if sudo access is necessary</td></tr><tr><td>CRITICAL</td><td>Brute Force Attack</td><td>2024-01-15 13:45:00 ERROR: Brute force attack detected from 203.0.113.45</td></tr><tr><td>HIGH</td><td>Multiple Failed Logins</td><td>IP 203.0.113.45 had 2 failed login attempts</td></tr><tr><td>MEDIUM</td><td>Unauthorized Access Attempt</td><td>2024-01-15 11:45:30 GET /api/secrets 403 guest</td></tr><tr><td>MEDIUM</td><td>Sensitive Endpoint Access</td><td>2024-01-15 11:45:30 GET /api/secrets 403 guest</td></tr><tr><td>LOW</td><td>Delete Operation</td><td>2024-01-15 12:00:45 DELETE /api/users/1001 200 admin</td></tr><tr><td>MEDIUM</td><td>Sensitive Endpoint Access</td><td>2024-01-15 13:15:20 GET /admin/panel 200 developer</td></tr>
+</table>
+</body>
+</html>
