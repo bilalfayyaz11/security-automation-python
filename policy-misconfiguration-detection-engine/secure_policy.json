@@ -1,0 +1,13 @@
+{
+  "firewall_rules": [
+    {
+      "rule_id": "FW-100",
+      "action": "ALLOW",
+      "source": "192.168.1.0/24",
+      "destination": "10.0.0.5",
+      "port": "22",
+      "protocol": "TCP",
+      "description": "SSH from internal network only"
+    }
+  ]
+}

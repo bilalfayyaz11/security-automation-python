@@ -1,0 +1,32 @@
+{
+  "access_rules": [
+    {
+      "rule_id": "AC-001",
+      "user": "admin",
+      "resource": "/etc/passwd",
+      "permission": "write",
+      "description": "Admin can modify password file"
+    },
+    {
+      "rule_id": "AC-002",
+      "user": "*",
+      "resource": "/var/log/secure",
+      "permission": "read",
+      "description": "Everyone can read security logs"
+    },
+    {
+      "rule_id": "AC-003",
+      "user": "guest",
+      "resource": "/root",
+      "permission": "read",
+      "description": "Guest can read root directory"
+    },
+    {
+      "rule_id": "AC-004",
+      "user": "developer",
+      "resource": "/home/developer",
+      "permission": "read",
+      "description": "Developer can read own directory"
+    }
+  ]
+}

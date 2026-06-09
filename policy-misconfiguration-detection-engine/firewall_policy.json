@@ -1,0 +1,49 @@
+{
+  "firewall_rules": [
+    {
+      "rule_id": "FW-001",
+      "action": "ALLOW",
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.5",
+      "port": "22",
+      "protocol": "TCP",
+      "description": "SSH access from anywhere"
+    },
+    {
+      "rule_id": "FW-002",
+      "action": "ALLOW",
+      "source": "192.168.1.0/24",
+      "destination": "10.0.0.10",
+      "port": "443",
+      "protocol": "TCP",
+      "description": "HTTPS from internal network"
+    },
+    {
+      "rule_id": "FW-003",
+      "action": "DENY",
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.5",
+      "port": "22",
+      "protocol": "TCP",
+      "description": "Block SSH from anywhere"
+    },
+    {
+      "rule_id": "FW-004",
+      "action": "ALLOW",
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.20",
+      "port": "3389",
+      "protocol": "TCP",
+      "description": "RDP access from anywhere"
+    },
+    {
+      "rule_id": "FW-005",
+      "action": "ALLOW",
+      "source": "0.0.0.0/0",
+      "destination": "10.0.0.30",
+      "port": "*",
+      "protocol": "*",
+      "description": "Allow all traffic to database server"
+    }
+  ]
+}
