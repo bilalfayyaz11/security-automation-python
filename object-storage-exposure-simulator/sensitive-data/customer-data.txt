@@ -1,0 +1,5 @@
+Customer Database - CONFIDENTIAL
+================================
+ID: 1001, Name: John Doe, SSN: 123-45-6789, Email: john@example.com
+ID: 1002, Name: Jane Smith, SSN: 987-65-4321, Email: jane@example.com
+ID: 1003, Name: Bob Johnson, SSN: 555-12-3456, Email: bob@example.com

@@ -1,0 +1,16 @@
+===================================
+Storage Exposure Detection Scanner
+===================================
+
+Scanning bucket: private-bucket
+  [SECURE] customer-data.txt is protected
+
+Scanning bucket: public-bucket
+  [EXPOSED] api-keys.txt is publicly accessible
+
+Scanning bucket: exposed-data
+  [EXPOSED] financial-report.txt is publicly accessible
+
+===================================
+Scan Complete
+===================================
